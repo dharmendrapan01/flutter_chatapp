@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60837397488",
+    "project_id": "salesapp-chat",
+    "storage_bucket": "salesapp-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60837397488:android:e398abd2e2b6c4caa05335",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60837397488-0stshv2m81l6rdd4p84om26srlm7lvmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABZ-5FqsbnlYb9Ij9KPzP7P7RDGEcxt-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60837397488-0stshv2m81l6rdd4p84om26srlm7lvmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
