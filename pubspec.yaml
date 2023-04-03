@@ -38,6 +38,11 @@ dependencies:
   firebase_core: ^2.7.1
   firebase_auth: ^4.2.10
   google_sign_in: ^6.0.2
+  cloud_firestore: ^4.4.5
+  cached_network_image: ^3.2.3
+  image_picker: ^0.8.7+1
+  firebase_storage: ^11.0.16
+  emoji_picker_flutter: ^1.5.2
 
 dev_dependencies:
   flutter_test:
