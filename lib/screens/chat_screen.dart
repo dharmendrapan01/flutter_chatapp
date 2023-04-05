@@ -278,8 +278,15 @@ class _ChatScreenState extends State<ChatScreen> {
           MaterialButton(
             onPressed: () {
               if (_textController.text.isNotEmpty) {
-                ApiServices.sendMessage(
+                if(_list.isEmpty){
+                  // on first message (add user to my_user collection of chat user)
+                  ApiServices.sendFirstMessage(
+                      widget.user, _textController.text, Type.text);
+                }else {
+                  // simply send a message
+                  ApiServices.sendMessage(
                     widget.user, _textController.text, Type.text);
+                }
                 _textController.text = '';
               }
             },
